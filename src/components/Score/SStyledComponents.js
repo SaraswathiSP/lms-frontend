@@ -9,12 +9,16 @@ export const ScoreContainer = styled.div`
 export const ScoreCard = styled.div`
   width: 300px;
   height: 200px;
-  background-color: #f0f0f0;
-  border-radius: 10px;
+  background-color: #f5f3c1;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 40px;
+  @media screen and (max-width: 767px) {
+    margin: 40px;
+  }
 `;
 
 export const Score = styled.h1`

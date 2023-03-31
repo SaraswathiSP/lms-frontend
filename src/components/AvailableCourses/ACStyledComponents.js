@@ -34,9 +34,12 @@ export const TabItem = styled.div`
   border-top-left-radius: 10px;
   border-color: #b6b8b7;
   border-style: solid;
-
   border-top-right-radius: 10px;
   border-bottom-width: 0px;
+  @media screen and (max-width: 425px) {
+    height: 25px;
+    font-size: 10px;
+  }
 `;
 
 export const TabContent = styled.div`
